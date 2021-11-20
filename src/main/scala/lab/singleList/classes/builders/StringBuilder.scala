@@ -16,7 +16,7 @@ class StringBuilder extends TypeBuilder {
     val sb = new StringBuffer(codeLength)
     val random = new SecureRandom
     for (i <- 0 until codeLength) {
-      var c:Char = ???;
+      var c:Char = ' ';
 
       while(sb.indexOf(c.toString) > -1){
         c = (random.nextInt((max - min) + 1) + min).toChar
