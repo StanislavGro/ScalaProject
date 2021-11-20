@@ -1,4 +1,4 @@
-package lab.singleList.classes.builders
+package lab.singleList.traits
 
 trait TypeBuilder {
   def typeName(): String

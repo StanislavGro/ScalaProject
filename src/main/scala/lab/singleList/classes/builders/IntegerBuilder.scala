@@ -1,10 +1,9 @@
 package lab.singleList.classes.builders
 
-import lab.singleList.classes.builders.TypeBuilder
-import lab.singleList.traits.Comparator
+import lab.singleList.traits.{Comparator, TypeBuilder}
 
 
-class IntegerBuilder extends lab.singleList.classes.builders.TypeBuilder {
+class IntegerBuilder extends TypeBuilder {
 
   val range:Int = 100
 

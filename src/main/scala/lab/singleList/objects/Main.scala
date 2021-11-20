@@ -1,6 +1,6 @@
 package lab.singleList.objects
 
-import lab.singleList.classes.builders.{IntegerBuilder, TypeBuilder}
+import lab.singleList.classes.builders.IntegerBuilder
 import lab.singleList.classes.dataStructure.{singleList, superList}
 
 import java.util.Scanner

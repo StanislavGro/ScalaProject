@@ -1,7 +1,7 @@
 package lab.singleList.classes.builders
 
-import lab.singleList.classes.builders.TypeBuilder
-import lab.singleList.traits.Comparator
+import lab.singleList.traits.{Comparator, TypeBuilder}
+
 import java.security.SecureRandom
 
 class StringBuilder extends TypeBuilder {
